@@ -13,9 +13,9 @@ This program automates Bing searches to help easily complete Microsoft Rewards s
 
 To compile the program, navigate to the directory containing the `launchbot.cpp` file and run the following command:
 
-\`\`\`bash
+```bash
 g++ launchbot.cpp -o launchbot
-\`\`\`
+```
 
 This will create an executable named `launchbot`.
 
@@ -23,9 +23,9 @@ This will create an executable named `launchbot`.
 
 To run the program, simply execute the following command in the terminal:
 
-\`\`\`bash
+```bash
 ./launchbot
-\`\`\`
+```
 
 The program will generate 30 random strings and perform a Bing search for each of them, with a 6-second interval between each search.
 
